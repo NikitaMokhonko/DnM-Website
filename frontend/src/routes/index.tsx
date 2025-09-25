@@ -7,8 +7,8 @@ export const Route = createFileRoute("/")({
 
 function App() {
   return (
-    <div className="bg-[url('/landing-bg.svg')] bg-top bg-cover min-h-screen pt-30">
-      <div className="max-w-5xl mx-auto p-10 border-1 border-black bg-white rounded-2xl animate-fade-in-up">
+    <div className="bg-[url('/landing-bg.svg')] bg-top bg-cover min-h-screen pt-10 sm:pt-30">
+      <div className="max-w-[80%] sm:max-w-5xl mx-auto p-10 border-1 border-black bg-white rounded-2xl animate-fade-in-up">
         <h1 className="text-4xl text-center">
           Var <span className="underline">smart</span> - sälj dina skins till{" "}
           <span className="underline">SkinSmart</span>!
@@ -23,7 +23,7 @@ function App() {
         </p>
       </div>
 
-      <div className="mx-auto my-20 align-middle justify-between flex flex-row space-x-10 max-w-xl">
+      <div className="mx-auto py-10 sm:py-20 align-middle justify-center sm:justify-between flex flex-row space-x-10 max-w-[80%] sm:max-w-xl">
         <div className="flex flex-col items-center space-y-5">
           <h1 className="text-white">Messenger</h1>
           <a
@@ -33,7 +33,7 @@ function App() {
             <img
               src="messenger-logo.svg"
               alt="Messenger Logo"
-              className="w-50 h-50 p-5 animate-fade-in"
+              className="w-20 h-20 sm:w-50 sm:h-50 p-5 animate-fade-in"
             />
           </a>
         </div>
@@ -46,7 +46,7 @@ function App() {
             <img
               src="email-logo.svg"
               alt="Email Logo"
-              className="w-50 h-50 p-5 animate-fade-in"
+              className="w-20 h-20 sm:w-50 sm:h-50 p-5 animate-fade-in"
             />
           </a>
         </div>
