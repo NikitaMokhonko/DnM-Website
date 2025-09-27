@@ -32,7 +32,7 @@ function App() {
           />
         </div>
 
-        <div className="flex flex-1 justify-center space-x-5 sm:space-x-10 pb-10 sm:pb-0">
+        <div className="flex flex-1 justify-center space-x-5 sm:space-x-10 pb-10">
           <div className="flex flex-col items-center space-y-5">
             <h1 className="text-white text-xl">Messenger</h1>
             <a
@@ -42,7 +42,7 @@ function App() {
               <img
                 src="messenger-logo.svg"
                 alt="Messenger Logo"
-                className="w-20 h-20 sm:w-50 sm:h-50 p-5 animate-fade-in"
+                className="w-25 h-25 sm:w-50 sm:h-50 p-5 animate-fade-in"
               />
             </a>
           </div>
@@ -55,7 +55,7 @@ function App() {
               <img
                 src="email-logo.svg"
                 alt="Email Logo"
-                className="w-20 h-20 sm:w-50 sm:h-50 p-5 animate-fade-in"
+                className="w-25 h-25 sm:w-50 sm:h-50 p-5 animate-fade-in"
               />
             </a>
           </div>
