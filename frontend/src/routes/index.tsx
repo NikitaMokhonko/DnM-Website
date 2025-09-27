@@ -7,13 +7,13 @@ export const Route = createFileRoute("/")({
 
 function App() {
   return (
-    <div className="bg-[url('/landing-bg.svg')] bg-top bg-cover pt-10 sm:pt-30">
-      <div className="max-w-[80%] sm:max-w-5xl mx-auto p-10 border-1 border-black bg-white rounded-2xl animate-fade-in-up">
+    <div className="bg-[url('/landing-bg.svg')] bg-top bg-cover pt-10 sm:pt-30 min-h-[80vh]">
+      <div className="max-w-[80%] sm:max-w-5xl mx-auto p-10 bg-white rounded-2xl animate-fade-in-up shadow-xl border-1 border-white">
         <h1 className="text-4xl text-center">
           Var <span className="underline">smart</span> - sälj dina skins till{" "}
           <span className="underline">SkinSmart</span>!
         </h1>
-        <p className="text-2xl max-w-2xl mx-auto text-center pt-10">
+        <p className="text-2xl max-w-2xl mx-auto text-center pt-12">
           Med över <span className="text-green-500">10</span> års erfarenhet och
           över <span className="text-green-500">8.000</span> utförda affärer
           hjälper vi dig sälja dina skins snabbt, tryggt och utan krångel.{" "}
@@ -23,20 +23,21 @@ function App() {
         </p>
       </div>
 
-      <div className="flex flex-row justify-between px-20 pt-10 sm:pt-20 mx-auto max-w-[80%] sm:max-w-[100%]">
-        <div className="flex-1 flex justify-center">
+      <div className="flex flex-row items-center justify-evely gap-8 md:px-10 xl:px-20 pt-10 sm:pt-20 mx-auto max-w-full sm:max-w-[90%]">
+        <div className="hidden 2xl:block flex-1 justify-center">
           <img
-            className="hidden md:block w-110 h-170"
+            className=" w-110 h-170"
             alt="SkinSmart Character"
             src="character.png"
           />
         </div>
-        <div className="flex flex-row space-x-10 pt-25 mx-auto">
+
+        <div className="flex flex-1 justify-center space-x-5 sm:space-x-10 pb-10 sm:pb-0">
           <div className="flex flex-col items-center space-y-5">
-            <h1 className="text-white">Messenger</h1>
+            <h1 className="text-white text-xl">Messenger</h1>
             <a
               href="https://m.me/61580631302030"
-              className=" border-1 cursor-pointer border-[#0B2E42] bg-white rounded-4xl shadow-lg"
+              className="border-1 cursor-pointer border-white bg-gradient-to-t to-white from-[#57f9fc] rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105"
             >
               <img
                 src="messenger-logo.svg"
@@ -46,10 +47,10 @@ function App() {
             </a>
           </div>
           <div className="flex flex-col items-center space-y-5">
-            <h1 className="text-white">Email</h1>
+            <h1 className="text-white text-xl">Email</h1>
             <a
               href="mailto:Dnmtrading@gmail.com"
-              className=" border-1 cursor-pointer border-[#0B2E42] bg-white rounded-4xl shadow-lg"
+              className="border-1 cursor-pointer border-white bg-gradient-to-t to-white from-[#57f9fc] rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105"
             >
               <img
                 src="email-logo.svg"
@@ -59,35 +60,37 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="flex-1 flex justify-center">
-          <div className="relative hidden md:block w-[34rem] h-[34rem]">
+
+        <div className="hidden 2xl:block flex-1 justify-center">
+          <div className="relative w-[34rem] h-[34rem]">
             <img
-              className="absolute w-40 h-40 rounded-xl shadow-lg animate-float1"
-              style={{ left: "0%", top: "20%", zIndex: 4 }}
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float1"
+              style={{ left: "30%", top: "20%", zIndex: 4 }}
               alt="CS2 Butterfly Knife Lore"
               src="butterfly-lore.webp"
             />
             <img
-              className="absolute w-40 h-40 rounded-xl shadow-lg animate-float2"
-              style={{ left: "35%", top: "0%", zIndex: 3 }}
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float2"
+              style={{ left: "65%", top: "0%", zIndex: 3 }}
               alt="CS2 Desert Eagle Printstream"
               src="desert-eagle-printstream.webp"
             />
             <img
-              className="absolute w-40 h-40 rounded-xl shadow-lg animate-float3"
-              style={{ left: "55%", top: "35%", zIndex: 2 }}
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float3"
+              style={{ left: "85%", top: "35%", zIndex: 2 }}
               alt="CS2 AK-47 Asiimov"
               src="ak47-asiimov.webp"
             />
             <img
-              className="absolute w-40 h-40 rounded-xl shadow-lg animate-float4"
-              style={{ left: "20%", top: "55%", zIndex: 1 }}
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float4"
+              style={{ left: "50%", top: "55%", zIndex: 1 }}
               alt="CS2 King Snake Gloves"
               src="gloves-king-snake.webp"
             />
           </div>
         </div>
       </div>
+
       <style>
         {`
     @keyframes float1 {
@@ -112,6 +115,7 @@ function App() {
     .animate-float4 { animation: float4 4.4s ease-in-out infinite; }
   `}
       </style>
+
       <style>
         {`
           @keyframes floatFade {
