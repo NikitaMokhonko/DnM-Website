@@ -20,7 +20,7 @@ export default function Header() {
           autoFill={true}
           className="py-1 bg-white text-black"
         >
-          Sälj Dina Skins Idag 💸 Snabb Och Smidig Service ✅ Smarta Betalningar
+          Sälj Dina Skins Idag 💸 Trygg Och Smidig Service ✅ Snabba Betalningar
           Via Swish 💸&nbsp;
         </Marquee>
       </div>
