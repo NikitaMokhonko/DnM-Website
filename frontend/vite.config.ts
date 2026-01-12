@@ -15,4 +15,9 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      external: ["react-fast-marquee"],
+    },
+  },
 });
