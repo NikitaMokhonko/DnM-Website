@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="border-t-1 bg-[#0B2E42] text-white text-center pt-4 pb-2">
+    <footer className="border-t-1 bg-black text-white text-center pt-4 pb-2">
       <p className="text-sm">
         © 2025 DnM Trading AB. All rights reserved.
         <br />

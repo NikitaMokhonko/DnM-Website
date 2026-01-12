@@ -7,8 +7,8 @@ export const Route = createFileRoute("/")({
 
 function App() {
   return (
-    <div className="bg-[url('/landing-bg.svg')] bg-top bg-cover pt-10 sm:pt-30 min-h-[80vh]">
-      <div className="max-w-[80%] sm:max-w-5xl mx-auto p-10 bg-white rounded-2xl animate-fade-in-up shadow-xl border-1 border-white">
+    <div className="bg-black bg-top bg-cover pt-10 sm:pt-30 min-h-[80vh]">
+      <div className="max-w-[80%] sm:max-w-5xl mx-auto text-white p-10 bg-[#0B2E42] rounded-2xl animate-fade-in-up shadow-xl border-1 border-white">
         <h1 className="text-4xl text-center">
           Var <span className="underline">smart</span> - sälj dina skins till{" "}
           <span className="underline">SkinSmart</span>!
@@ -37,7 +37,7 @@ function App() {
             <h1 className="text-white text-xl">Messenger</h1>
             <a
               href="https://m.me/61580631302030"
-              className="border-1 cursor-pointer border-white bg-gradient-to-t to-white from-[#57f9fc] rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105"
+              className="border-1 cursor-pointer border-white bg-white rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105"
             >
               <img
                 src="messenger-logo.svg"
@@ -50,7 +50,7 @@ function App() {
             <h1 className="text-white text-xl">Email</h1>
             <a
               href="mailto:Dnmtrading@gmail.com"
-              className="border-1 cursor-pointer border-white bg-gradient-to-t to-white from-[#57f9fc] rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105"
+              className="border-1 cursor-pointer border-white bg-white rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105"
             >
               <img
                 src="email-logo.svg"
@@ -64,25 +64,25 @@ function App() {
         <div className="hidden 2xl:block flex-1 justify-center">
           <div className="relative w-[34rem] h-[34rem]">
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float1"
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float1 bg-[#0B2E42]"
               style={{ left: "30%", top: "20%", zIndex: 4 }}
               alt="CS2 Butterfly Knife Lore"
               src="butterfly-lore.webp"
             />
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float2"
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float2 bg-[#0B2E42]"
               style={{ left: "65%", top: "0%", zIndex: 3 }}
               alt="CS2 Desert Eagle Printstream"
               src="desert-eagle-printstream.webp"
             />
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float3"
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float3 bg-[#0B2E42]"
               style={{ left: "85%", top: "35%", zIndex: 2 }}
               alt="CS2 AK-47 Asiimov"
               src="ak47-asiimov.webp"
             />
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float4"
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float4 bg-[#0B2E42]"
               style={{ left: "50%", top: "55%", zIndex: 1 }}
               alt="CS2 King Snake Gloves"
               src="gloves-king-snake.webp"
