@@ -7,13 +7,13 @@ export const Route = createFileRoute("/")({
 
 function App() {
   return (
-    <div className="bg-black bg-top bg-cover pt-10 sm:pt-30 min-h-[80vh]">
-      <div className="max-w-[80%] sm:max-w-5xl mx-auto text-white p-10 bg-[#0B2E42] rounded-2xl animate-fade-in-up shadow-xl border-1 border-white">
+    <div className="bg-black pt-5 sm:pt-30 pb-15 sm:pb-0">
+      <div className="max-w-[95%] sm:max-w-5xl mx-auto text-white p-10 sm:bg-[#0B2E42] rounded-2xl animate-fade-in-up shadow-xl sm:border-1 border-white">
         <h1 className="text-4xl text-center">
           Var <span className="underline">smart</span> - sälj dina skins till{" "}
           <span className="underline">SkinSmart</span>!
         </h1>
-        <p className="text-2xl max-w-2xl mx-auto text-center pt-12">
+        <p className="text-xl max-w-2xl mx-auto text-center pt-12">
           Med över <span className="text-green-500">10</span> års erfarenhet och
           över <span className="text-green-500">8.000</span> utförda affärer
           hjälper vi dig sälja dina skins snabbt, tryggt och utan krångel.{" "}
@@ -64,25 +64,25 @@ function App() {
         <div className="hidden 2xl:block flex-1 justify-center">
           <div className="relative w-[34rem] h-[34rem]">
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float1 bg-[#0B2E42]"
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float1 bg-[#0B2E42] border border-white"
               style={{ left: "30%", top: "20%", zIndex: 4 }}
               alt="CS2 Butterfly Knife Lore"
               src="butterfly-lore.webp"
             />
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float2 bg-[#0B2E42]"
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float2 bg-[#0B2E42] border border-white"
               style={{ left: "65%", top: "0%", zIndex: 3 }}
               alt="CS2 Desert Eagle Printstream"
               src="desert-eagle-printstream.webp"
             />
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float3 bg-[#0B2E42]"
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float3 bg-[#0B2E42] border border-white"
               style={{ left: "85%", top: "35%", zIndex: 2 }}
               alt="CS2 AK-47 Asiimov"
               src="ak47-asiimov.webp"
             />
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float4 bg-[#0B2E42]"
+              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float4 bg-[#0B2E42] border border-white"
               style={{ left: "50%", top: "55%", zIndex: 1 }}
               alt="CS2 King Snake Gloves"
               src="gloves-king-snake.webp"

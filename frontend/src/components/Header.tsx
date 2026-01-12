@@ -8,13 +8,13 @@ export default function Header() {
           <img
             alt="SkinSmart Logo"
             className="w-16 h-16 cursor-pointer"
-            src="skinsmart-logo.png"
+            src="skinsmart-logo-round.png"
           />
           <h1 className="text-4xl text-white cursor-pointer">SkinSmart</h1>
         </div>
       </div>
 
-      <div className="border-b-1 border-white">
+      <div className="border-b-1 border-white hidden sm:block">
         <Marquee
           speed={25}
           autoFill={true}
