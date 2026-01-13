@@ -10,7 +10,7 @@ export default function Footer() {
         Site created by{" "}
         <a
           className="underline underline-offset-4 text-blue-200"
-          href="https://github.com/NikitaMokhonko"
+          href="https://nikitamokhonko.com"
         >
           Nikita Mokhonko
         </a>
