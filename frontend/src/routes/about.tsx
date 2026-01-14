@@ -12,48 +12,42 @@ function RouteComponent() {
 
         <div>
           <h2 className="text-xl font-semibold">
-            Hur säljer jag mina CS2 skins till er?
+            DnM Trading - Din pålitliga partner för CS2 skins i Sverige
           </h2>
+        </div>
+
+        <div>
           <p>
-            Skicka ett meddelande via vår Facebook-länk så hjälper vi dig steg
-            för steg att slutföra försäljningen snabbt och tryggt.
+            DnM Trading, också känt under varumärket Skinsmart, är ett svenskt
+            bolag med huvudkontor i natursköna Åre. Vi är stolta över att ha ett
+            dedikerat team som jobbar aktivt över hela landet med att köpa in
+            och sälja CS2 skins. Vår styrka ligger i våra ständigt växande
+            samarbeten med både privatpersoner och företag som delar vår passion
+            för gaming och e-handel.
           </p>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold">Hur snabbt får jag betalt?</h2>
           <p>
-            Betalningen sker direkt via Swish så snart affären är slutförd.
-            Vanligtvis får du pengarna inom några minuter efter
-            överenskommelsen.
+            Vi arbetar hårt för att erbjuda våra kunder en trygg, snabb och
+            smidig tjänst för skinshandel, där transparens och personlig service
+            är i fokus. Tack vare vårt nätverk och vår lokala närvaro kan vi
+            hantera affärer effektivt och ge konkurrenskraftiga villkor.
           </p>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold">
-            Vilket pris får jag för mina skins?
-          </h2>
           <p>
-            Vi betalar mellan 90–94% av uu-priser beroende på marknad och
-            skinnens skick.
+            Vår vision är att bli den ledande aktören på den svenska marknaden
+            för CS2 skins, och vi fortsätter att växa genom nya samarbeten och
+            att hela tiden förbättra våra tjänster.
           </p>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold">
-            Är det säkert att sälja skins till er?
-          </h2>
           <p>
-            Ja, vi har många nöjda kunder och lägger stor vikt vid säkerhet,
-            transparens och snabb hantering.
-          </p>
-        </div>
-
-        <div>
-          <h2 className="text-xl font-semibold">Åldersgräns</h2>
-          <p>
-            Du behöver vara minst 18 år för att sälja, eller ha målsmans
-            tillstånd om du är yngre.
+            Välkommen att bli en del av DnM Trading och upptäck hur enkelt och
+            säkert det kan vara att sälja dina skins!
           </p>
         </div>
       </div>
