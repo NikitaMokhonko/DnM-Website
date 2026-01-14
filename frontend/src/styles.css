@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+@media (min-width: 640px) {
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #ffffff;
+    transition: width 0.28s ease;
+    transform-origin: left;
+  }
+
+  .nav-link:hover::after {
+    width: 100%;
+  }
+}
