@@ -126,7 +126,7 @@ export default function Header() {
         <Marquee
           speed={25}
           autoFill={true}
-          className="py-1 bg-[#0B2E42] text-white"
+          className="py-2 bg-black text-white"
         >
           Sälj Dina Skins Idag ✅ Trygg Och Smidig Service ✅ Snabba Betalningar
           Via Swish ✅&nbsp;

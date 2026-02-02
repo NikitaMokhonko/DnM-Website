@@ -7,8 +7,8 @@ export const Route = createFileRoute("/")({
 
 function App() {
   return (
-    <div className="bg-black pt-5 sm:pt-30 pb-15 sm:pb-0">
-      <div className="max-w-[95%] sm:max-w-5xl mx-auto text-white p-10 sm:bg-[#0B2E42] rounded-2xl animate-fade-in-up shadow-xl sm:border-1 border-white">
+    <div className="bg-black pt-5 pb-15 sm:pb-0 min-h-screen max-w-[1920px] mx-auto">
+      <div className="max-w-[95%] sm:max-w-5xl mx-auto text-white p-10 rounded-2xl animate-fade-in-up shadow-xl">
         <h1 className="text-4xl text-center">
           Var <span className="underline">smart</span> - sälj dina skins till{" "}
           <span className="underline">SkinSmart</span>!
@@ -23,21 +23,42 @@ function App() {
         </p>
       </div>
 
-      <div className="flex flex-row items-center justify-evely gap-8 md:px-10 xl:px-20 pt-10 sm:pt-20 mx-auto max-w-full sm:max-w-[90%]">
-        <div className="hidden 2xl:block flex-1 justify-center">
-          <img
-            className=" w-110 h-170"
-            alt="SkinSmart Character"
-            src="character.png"
-          />
+      <div className="flex flex-row items-center justify-between pt-10 sm:pt-0 max-w-full">
+        <div className="hidden 2xl:block">
+          <div className="w-[34rem] h-[34rem] flex flex-row items-center justify-center">
+            <img
+              className="relative w-24 h-24 xl:w-40 xl:h-40 rounded-xl animate-float1 bg-radial p-4 from-yellow-500 from-20% via-black to-black backdrop-blur-xl"
+              style={{ left: "20%", top: "-40%", zIndex: 4 }}
+              alt="CS2 AWP Dragon Lore"
+              src="awp-dragon-lore.png"
+            />
+            <img
+              className="relative w-24 h-24 xl:w-40 xl:h-40 rounded-xl animate-float2 bg-radial p-7 from-red-700 from-20% via-black to-black backdrop-blur-xl"
+              style={{ left: "25%", top: "-70%", zIndex: 3 }}
+              alt="CS2 Desert Eagle Printstream"
+              src="m9-autotronic.png"
+            />
+            <img
+              className="relative w-24 h-24 xl:w-40 xl:h-40 rounded-xl animate-float3 bg-radial p-7 from-pink-500 from-20% via-black to-black backdrop-blur-xl"
+              style={{ left: "30%", top: "-40%", zIndex: 2 }}
+              alt="CS2 Vice Gloves"
+              src="gloves-vice.png"
+            />
+            <img
+              className="relative w-24 h-24 xl:w-40 xl:h-40 rounded-xl animate-float4 bg-radial p-4 from-green-800 from-20% via-black to-black backdrop-blur-xl"
+              style={{ left: "-35%", top: "-5%", zIndex: 1 }}
+              alt="CS2 AK-47 Wild Lotus "
+              src="ak47-wild-lotus.png"
+            />
+          </div>
         </div>
 
-        <div className="flex flex-1 justify-center space-x-5 sm:space-x-10 pb-10">
+        <div className="flex justify-center space-x-5 sm:space-x-10 pb-25 mx-auto">
           <div className="flex flex-col items-center space-y-5">
             <h1 className="text-white text-xl">Messenger</h1>
             <a
               href="https://m.me/61580631302030"
-              className="border-1 cursor-pointer border-white bg-white rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105"
+              className="border-1 cursor-pointer border-white bg-white rounded-4xl transition-transform duration-500 hover:scale-105"
             >
               <img
                 src="messenger-logo.svg"
@@ -50,7 +71,7 @@ function App() {
             <h1 className="text-white text-xl">Email</h1>
             <a
               href="mailto:Dnmtrading@gmail.com"
-              className="border-1 cursor-pointer border-white bg-white rounded-4xl shadow-lg transition-transform duration-500 hover:scale-105"
+              className="border-1 cursor-pointer border-white bg-white rounded-4xl transition-transform duration-500 hover:scale-105"
             >
               <img
                 src="email-logo.svg"
@@ -61,31 +82,32 @@ function App() {
           </div>
         </div>
 
-        <div className="hidden 2xl:block flex-1 justify-center">
-          <div className="relative w-[34rem] h-[34rem]">
+        <div className="hidden 2xl:block">
+          <div className="w-[34rem] h-[34rem] flex flex-row items-center justify-center">
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float1 bg-[#0B2E42] border border-white"
-              style={{ left: "30%", top: "20%", zIndex: 4 }}
-              alt="CS2 Butterfly Knife Lore"
-              src="butterfly-lore.webp"
+              className="relative w-24 h-24 xl:w-40 xl:h-40 rounded-xl animate-float1 bg-radial p-5 from-yellow-700 from-20% via-black to-black backdrop-blur-xl"
+              style={{ left: "0%", top: "-40%", zIndex: 4 }}
+              alt="CS2 Butterfly Knife Tiger Tooth"
+              src="butterfly-tiger-tooth.png"
             />
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float2 bg-[#0B2E42] border border-white"
-              style={{ left: "65%", top: "0%", zIndex: 3 }}
-              alt="CS2 Desert Eagle Printstream"
-              src="desert-eagle-printstream.webp"
+              className="relative w-24 h-24 xl:w-40 xl:h-40 rounded-xl animate-float2 bg-radial p-5 from-white from-10% via-black to-black backdrop-blur-xl"
+              style={{ left: "5%", top: "-70%", zIndex: 3 }}
+              
+              alt="CS2 M4A1-S Printstream"
+              src="m4a1s-printstream.png"
             />
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float3 bg-[#0B2E42] border border-white"
-              style={{ left: "85%", top: "35%", zIndex: 2 }}
-              alt="CS2 AK-47 Asiimov"
-              src="ak47-asiimov.webp"
+              className="relative w-24 h-24 xl:w-40 xl:h-40 rounded-xl animate-float3 bg-radial p-6 from-red-600 from-20% via-black to-black backdrop-blur-xl"
+              style={{ left: "10%", top: "-40%", zIndex: 2 }}
+              alt="CS2 Crimson Kimono Gloves"
+              src="gloves-crimson-kimono.png"
             />
             <img
-              className="absolute w-24 h-24 xl:w-40 xl:h-40 rounded-xl shadow-xl animate-float4 bg-[#0B2E42] border border-white"
-              style={{ left: "50%", top: "55%", zIndex: 1 }}
-              alt="CS2 King Snake Gloves"
-              src="gloves-king-snake.webp"
+              className="relative w-24 h-24 xl:w-40 xl:h-40 rounded-xl animate-float4 bg-radial p-5 from-blue-400 from-20% via-black to-black backdrop-blur-xl"
+              style={{ left: "-55%", top: "-5%", zIndex: 1 }}
+              alt="CS2 M4A4 Emperor"
+              src="m4a4-emperor.png"
             />
           </div>
         </div>
